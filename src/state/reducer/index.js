@@ -1,6 +1,8 @@
 import { combineReducers } from "redux";
 import balance from './balance'
 
-export default reducers = combineReducers({
+const reducers = combineReducers({
     balance: balance
 })
+
+export default reducers
